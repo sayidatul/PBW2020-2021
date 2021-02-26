@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>atribut form</title>
+    </head>
+    <body>
+        <form>
+            Nama : <input type="text" value="nama"> <br><!---atribut value--->
+            nama : <input type="text" value="nama" readonly><br> <!---atribut readonly(nilainya tidak bisa diubah--->
+            alamat : <input type="text" value="alamat" disabled><br> <!---tidak menerima inputan/ dinonaktifkan--->
+            hobi : <input type="text" size="30"><br><!---mengatur lebar kotak input--->
+            hobi : <input type="text" maxlength="15"><br> <!---maxlength = membatasi jumlah huruf/pangjang text yang bisa disi--->
+            bahasa pemograman : <input list ="bahasa pemograman">
+            <datalist id="bahasa pemograman">
+                <option value="PHP">
+                <option value="C">
+                <option value="javascript">
+            </datalist><br>
+            <input type="date" name="hari" min="1980-12-1">
+            <input type="date" name="hari" max="2021-02-18">
+            <br>
+
+            <input type="text" name="nama" placeholder="masukkan nama"><br><!---pengganti label field--->
+            
+        </form>
+    </body>
+</html>

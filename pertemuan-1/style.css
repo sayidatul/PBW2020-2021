@@ -1,0 +1,21 @@
+h1{
+    color: aqua;
+    font-family :'Gill Sans';
+    text-align: center;
+}
+
+.kotak{
+    padding: 30px;
+    width: 80px;
+    color: azure;
+    margin: auto;
+    background: burlywood;
+}
+
+#kotak{
+    padding: 50px;
+    width: 100px;
+    color: blueviolet ;
+    margin: 110px;
+    background: crimson;
+}
