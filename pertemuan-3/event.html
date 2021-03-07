@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>belajar javaScript</title>
+        <link rel="shortcut icon" href="wallpaper.ico">
+    </head>
+    <body>
+        <h2 align = "center">Macam-macam event dalam Javascript</h2>
+
+        <!--onclick-->
+        <button onclick="tampilNama()">nama</button><br>
+        <button onclick="this.innerHTML = Date()">tanggal</button>
+        <div id="nama"></div>
+
+        <script>
+            function tampilNama(){
+               document.getElementById("nama").innerHTML = "Nama anda";
+                //return document.write('Sayidatul Sufur');
+            }
+        </script>
+
+    </body>
+</html>
+
