@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>belajar javaScript</title>
+        <link rel="shortcut icon" href="wallpaper.ico">
+    </head>
+    <body>
+        <h2 align = "center">Belajar Javascript</h2>
+        <h4 align = "center">Tipe Data dalam Javascript</h4>
+
+      
+        <script>
+            //tipe data
+            //number
+            var angka = 100;
+            document.write("Number : " + angka);
+            //string
+            var kalimat = "Belajar PBW"
+            document.write("<br> String: " + kalimat);
+            //Boolean
+            document.write("<br> Boolean : 'true' or 'false'");
+            //Array
+            var arr= [2,4,6,"saya"];
+            for(let i = 0 ; i<4; i++){
+                document.write("<br> array["+i+"] = "+ arr[i]);
+            }
+            //object
+            var manusia = {
+                nama : "Sayidatul Sufur",
+                alamat : "Pidie",
+                umur : 19
+            };
+
+            document.write("<br> isi Object: <br>nama: "+manusia.nama+
+            "<br> umur:"+manusia.umur+"<br>alamat: "+manusia.alamat);
+        </script>
+        
+    </body>
+</html>

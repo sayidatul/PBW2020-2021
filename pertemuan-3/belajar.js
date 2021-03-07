@@ -1,0 +1,1 @@
+document.getElementById("nama").innerHTML = 'halo saya sayidatul';

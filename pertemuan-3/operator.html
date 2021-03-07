@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>belajar javaScript</title>
+        <link rel="shortcut icon" href="wallpaper.ico">
+    </head>
+    <body>
+        <h2 align = "center">Belajar Javascript</h2>
+        <h4 align = "center">macam-macam operator aritmatika</h4>
+
+        <div id="penjumlahan"></div>
+        <div id="perkalian"></div>
+        <div id="pengurangan"></div>
+        <div id="pembagian"></div>
+        <div id="modulus"></div>
+        <div id="increment"></div>
+        <div id="decrement"></div>
+      
+        <script>
+            //variabel
+            var angka1= 10;
+            var angka2 = 4;
+            var penjumlahan = angka1+angka2;
+            var pengurangan = angka1-angka2;
+            var perkalian = angka1 * angka2;
+            var pembagian = angka1 / angka2;
+            var modulus = angka1%angka2;
+            var increment = angka1++;
+            var decrement = angka1--;
+
+            document.getElementById("penjumlahan").innerHTML = " 10 + 4 = " + penjumlahan ;
+            document.getElementById("pengurangan").innerHTML = "10 - 4 = " + pengurangan;
+            document.getElementById("perkalian").innerHTML = "10 x 4 = " + perkalian;
+            document.getElementById("pembagian").innerHTML = "10 / 4 = " + pembagian;
+            document.getElementById("modulus").innerHTML = "10 % 4 = " + modulus;
+            document.getElementById("increment").innerHTML = "increment dari 10 = " + increment;
+            document.getElementById("decrement").innerHTML = "decrement dari 10 = " + decrement;
+        </script>
+        
+    </body>
+</html>
