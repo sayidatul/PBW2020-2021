@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>belajar javaScript</title>
+        <link rel="shortcut icon" href="wallpaper.ico">
+    </head>
+    <body>
+        <h2 align = "center">Menampilkan Tanggal dengan Javascript</h2>
+
+        <div id="tanggal"></div>
+        <div id="tanggal1"></div>
+        <div id="tanggal2"></div>
+        <div id="tanggal3"></div>
+        <div id="tanggal4"></div>
+        <script>
+           document.getElementById("tanggal").innerHTML = Date();
+           //membuat object baru menngunakan class Date()
+           //iso date 
+           document.getElementById("tanggal1").innerHTML = new Date("2022");
+           document.getElementById("tanggal2").innerHTML = new Date("2220-05-21T13:13:00Z");
+
+           //short date
+           document.getElementById("tanggal3").innerHTML =new Date("09/05/1999");
+
+           //long date
+           document.getElementById("tanggal4").innerHTML = new Date("25 mar 2011");
+        </script>
+
+    </body>
+</html>
+
